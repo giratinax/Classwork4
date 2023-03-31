@@ -1,0 +1,16 @@
+#include <stdio.h>
+struct person 
+{
+    char name[50];
+    int age;
+    float height;
+};
+int main() 
+{
+    struct person per={"prince", 18, 170.5};
+    printf("\n employee details are : ");
+    printf("\n name : %s", per.name);
+    printf("\n age : %d", per.age);
+    printf("\n height : %f", per.height);
+    return 0;
+}
